@@ -2,7 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { useSelector, useDispatch } from "react-redux";
-import { changeName } from "./redux/modules/cat";
+// import { changeName } from "./redux/modules/cat";
+import { changeName } from "./redux/modules/catSlice";
 
 function App() {
   const cat = useSelector((state) => state.cat);
